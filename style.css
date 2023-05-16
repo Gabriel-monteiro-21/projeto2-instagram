@@ -1,0 +1,17 @@
+/********************* Formatação padrão *******************/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ion-icon {
+    font-size: 22px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/********************* Formatação cabeçalho *******************/
+
+
