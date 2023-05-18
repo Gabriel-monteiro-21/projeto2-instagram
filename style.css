@@ -57,6 +57,9 @@ ion-icon {
 }
 
 .pesquisar input {
+
+    height: 28px;
+
     border: 1px solid #DBDBDB;
     border-radius: 3px;
 }
@@ -87,19 +90,11 @@ ion-icon {
 
 /**********storieseposts**********/
 
-.storieseposts {
-    width: 614px;
-}
-
 .stories {
     width: 100%;
     height: 118px;
 
     margin-bottom: 24px;
-}
-
-.posts {
-    width: 100%;
 }
 
 .post1 {
@@ -110,8 +105,6 @@ ion-icon {
 
 .post2 {
     width: 100%;
-
-    background-color: cornflowerblue;
 }
 
 /**********sidebar**********/
@@ -446,3 +439,22 @@ ion-icon {
 }
 
 /******************* Responsividade ********************/
+
+@media(max-width: 935px) {
+
+    .conteudo,
+    .cabecalho {
+        width: 100%;
+    }
+
+    .storieseposts {
+        margin: auto;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+}
+
+@media(max-width:614px) {}
