@@ -13,6 +13,7 @@ ion-icon {
 }
 
 /********************* Formatação cabeçalho *******************/
+
 .topo {
     border: 1px solid #DBDBDB;
 }
@@ -32,6 +33,7 @@ ion-icon {
 
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .borda-instagram {
@@ -39,7 +41,6 @@ ion-icon {
 
     height: 22px;
     width: 1px;
-    margin-top: 2px;
 }
 
 .pesquisar input {
@@ -59,4 +60,64 @@ ion-icon {
     align-items: center;
 }
 
-/********************* Formatação conteúdo principal *******************/
+/******************** Formatação das larguras e alturas do conteudo, stories, posts e sidebar ********************/
+
+/**********conteúdo**********/
+
+.conteudo{
+    width: 935px;
+    height: auto;
+
+    margin: 34px auto;
+
+    display: flex;
+}
+
+/**********storieseposts**********/
+
+.storieseposts{
+    width: 614px;
+    height: auto;
+}
+
+.stories{
+    width: 100%;
+    height: 118px;
+
+    margin-bottom: 24px;
+
+    background-color: plum;
+}
+
+.posts{
+    width: 100%;
+    height: auto;
+}
+
+.post1{
+    width: 100%;
+    height: 719px;
+
+    margin-bottom: 75px;
+    
+    background-color:darkgoldenrod;
+}
+
+.post2{
+    width: 100%;
+    height: 719px;
+    background-color: cornflowerblue;
+}
+
+/**********sidebar**********/
+
+.sidebar{
+    width: 321px;
+    height: 470px;
+
+    margin-left: 5px;
+
+    background-color: blue;
+}
+
+/******************* Formatação dos estilos e conteúdos dentro das divs ********************/
