@@ -129,6 +129,7 @@ ion-icon {
     align-items: center;
 
     border: 1px solid #DBDBDB;
+
     border-radius: 3px;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -438,9 +439,23 @@ ion-icon {
     margin-bottom: 18px;
 }
 
+/************** Lugar do código onde vou colocar as divs com display none ***************/
+
+    .menu-mobile{
+        display: none;
+    }
+
+    .barra-inferior{
+        display: none;
+    }
+
 /******************* Responsividade ********************/
 
 @media(max-width: 935px) {
+
+    .sidebar {
+        display: none;
+    }
 
     .conteudo,
     .cabecalho {
@@ -450,11 +465,65 @@ ion-icon {
     .storieseposts {
         margin: auto;
     }
+}
 
-    .sidebar {
+@media(max-width:614px) {
+
+    .cabecalho{
         display: none;
     }
 
-}
+    .menu-mobile{
+        width: 100%;
+        height: 54px;
 
-@media(max-width:614px) {}
+        background-color: #FFFFFF;
+
+        padding-right: 18px;
+        padding-left: 18px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .conteudo{
+        margin-top: 54px;
+    }
+
+    .stories{
+        margin:auto;
+        background-color: #FFFFFF;
+    }
+
+    .stories ion-icon{
+        display: none;
+    }
+
+    .posts{
+        margin-bottom: 19px;
+    }
+
+    .barra-inferior{
+        width: 100%;
+        height: 54px;
+
+        background-color: #FFFFFF;
+        border: 1px solid #DBDBDB;
+
+        padding-right: 18px;
+        padding-left: 18px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        position: fixed;
+        bottom: 0;
+        right:0;
+    }
+}
