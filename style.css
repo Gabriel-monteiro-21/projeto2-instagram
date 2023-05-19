@@ -173,6 +173,7 @@ ion-icon {
     font-weight: 400;
     font-size: 12px;
     color: #262626;
+    margin-top: 5px;
 }
 
 /**********posts**********/
@@ -515,7 +516,8 @@ ion-icon {
 
     .stories {
         margin: auto;
-        background-color: #FFFFFF;
+        background-color:  #E5E5E5;
+        border: none;
     }
 
     .stories ion-icon {
