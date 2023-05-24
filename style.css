@@ -66,6 +66,7 @@ ion-icon {
 
 .pesquisar ::placeholder {
     text-align: center;
+    color: #979797;
 }
 
 .icones {
@@ -524,6 +525,7 @@ ion-icon {
         margin: auto;
         background-color:  #E5E5E5;
         border: none;
+        box-shadow: none;
     }
 
     .stories ion-icon {
